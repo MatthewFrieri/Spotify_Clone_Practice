@@ -5,7 +5,7 @@ export default function TrackList({ album }: { album: AlbumType }) {
   return (
     <div className="flex-grow bg-zinc-950 bg-opacity-30 p-6">
       <table className="w-full text-zinc-400">
-        <thead className="border-b ">
+        <thead className="border-b border-zinc-600">
           <tr className="font-thin">
             <th className="pb-2 font-normal w-16 text-center">#</th>
             <th className="pb-2 font-normal text-left">Title</th>
