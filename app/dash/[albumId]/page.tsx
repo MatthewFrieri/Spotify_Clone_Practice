@@ -1,5 +1,6 @@
 import { fetchAlbumFromId } from "@/app/lib/data";
 import Banner from "@/app/ui/banner";
+import TrackList from "@/app/ui/track-list";
 import { notFound } from "next/navigation";
 
 export default function Page({ params }: { params: { albumId: string } }) {
@@ -11,8 +12,9 @@ export default function Page({ params }: { params: { albumId: string } }) {
   }
 
   return (
-    <div className="flex flex-col w-full h-full">
+    <div className="flex flex-col flex-grow h-screen">
       <Banner album={album} />
+      <TrackList album={album} />
     </div>
   );
 }

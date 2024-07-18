@@ -2,9 +2,22 @@ import { AlbumType } from "../lib/definitions";
 
 export default function Banner({ album }: { album: AlbumType }) {
   return (
-    <span className="flex justify-evenly bg-gradient-to-b from-slate-500 to-slate-800 p-4">
-      <img src={album.cover_url} className="w-52 rounded-lg  drop-shadow" />
-      <h1>{album.name}</h1>
-    </span>
+    <>
+      <div
+        className="fixed h-[32rem] w-full -z-10"
+        style={{ background: `linear-gradient(${album.color}, 60%, #09090b)` }}
+      ></div>
+      <span className="p-6 pt-16 h-80 flex">
+        <img
+          src={album.cover_url}
+          className="mr-6 h-full rounded-md drop-shadow"
+        />
+        <div className="mt-auto">
+          <p>Album</p>
+          <h1 className="text-8xl font-semibold capitalize">{album.name}</h1>
+          <p className="capitalize">{album.author}</p>
+        </div>
+      </span>
+    </>
   );
 }

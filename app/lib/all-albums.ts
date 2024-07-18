@@ -1,74 +1,114 @@
 export const all_albums = [
   {
     id: "1",
-    name: "utopia",
-    author: "travis scott",
-    cover_url: "/album-covers/utopia.jpg",
+    name: "music to be murdered by",
+    author: "eminem",
+    cover_url: "/album-covers/music-to-be-murdered-by.jpg",
+    color: "#800c23",
+    tracks: [],
   },
   {
     id: "2",
-    name: "music to be murdered by",
-    author: "eminem",
-    cover_url: "/album-covers/music-to-be-murdered-by.jpg"
+    name: "utopia",
+    author: "travis scott",
+    cover_url: "/album-covers/utopia.jpg",
+    color: "#544444",
+    tracks: [
+      {
+        title: "THANK GOD",
+        plays: "166,128,543",
+        time: "3:04",
+      },
+      {
+        title: "HYAENA",
+        plays: "142,812,726",
+        time: "3:14",
+      },
+      {
+        title: "MODERN JAM (feat. Teezo Touchdown)",
+        plays: "108,929,779",
+        time: "4:15",
+      },
+    ]
   },
   {
     id: "3",
     name: "meet the woo",
     author: "pop smoke",
-    cover_url: "/album-covers/meet-the-woo.jpg"
+    cover_url: "/album-covers/meet-the-woo.jpg",
+    color: "#555555",
+    tracks: [],
   },
   {
     id: "4",
     name: "wild west",
     author: "central cee",
-    cover_url: "/album-covers/wild-west.jpg"
+    cover_url: "/album-covers/wild-west.jpg",
+    color: "#ee4c1e",
+    tracks: [],
   },
   {
     id: "5",
     name: "savage mode II",
     author: "21 savage, metro boomin",
-    cover_url: "/album-covers/savage-mode-II.jpg"
+    cover_url: "/album-covers/savage-mode-II.jpg",
+    color: "#a72314",
+    tracks: [],
   },
   {
     id: "6",
     name: "god did",
     author: "DJ khaled",
-    cover_url: "/album-covers/god-did.jpg"
+    cover_url: "/album-covers/god-did.jpg",
+    color: "#0f6b1e",
+    tracks: [],
   },
   {
     id: "7",
     name: "certified lover boy",
     author: "drake",
-    cover_url: "/album-covers/certified-lover-boy.jpg"
+    cover_url: "/album-covers/certified-lover-boy.jpg",
+    color: "#623b3b",
+    tracks: [],
   },
   {
     id: "8",
     name: "alone at prom",
     author: "tory lanez",
-    cover_url: "/album-covers/alone-at-prom.jpg"
+    cover_url: "/album-covers/alone-at-prom.jpg",
+    color: "#e47f14",
+    tracks: [],
   },
   {
     id: "9",
     name: "graduation",
     author: "kanye west",
-    cover_url: "/album-covers/graduation.jpg"
+    cover_url: "/album-covers/graduation.jpg",
+    color: "#af4a80",
+    tracks: [],
   },
   {
     id: "10",
     name: "not all heroes wear capes",
     author: "21 savage, metro boomin",
-    cover_url: "/album-covers/not-all-heroes-wear-capes.jpg"
+    cover_url: "/album-covers/not-all-heroes-wear-capes.jpg",
+    color: "#3b160a",
+    tracks: [],
   },
   {
     id: "11",
     name: "blonde",
     author: "frank ocean",
-    cover_url: "/album-covers/blonde.jpg"
+    cover_url: "/album-covers/blonde.jpg",
+    color: "#dedede",
+    tracks: [],
   },
   {
     id: "12",
     name: "split decision",
     author: "dave, central cee",
-    cover_url: "/album-covers/split-decision.jpg"
+    cover_url: "/album-covers/split-decision.jpg",
+    color: "#345269",
+    tracks: [],
   },
 ]

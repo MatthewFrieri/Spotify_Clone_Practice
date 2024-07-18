@@ -6,7 +6,7 @@ import { AlbumType } from "../lib/definitions";
 export default function MiniAlbum({ album }: { album: AlbumType }) {
   return (
     <Link href={`/dash/${album.id}`}>
-      <div className="p-4 rounded-xl hover:bg-slate-600">
+      <div className="p-4 rounded-xl hover:bg-zinc-900">
         <div className="flex h-16 overflow-hidden">
           <img className="rounded-md" src={album.cover_url} alt={album.name} />
           <div className="pl-3 overflow-hidden">
