@@ -1,5 +1,3 @@
-import Sidebar from "@/app/ui/sidebar";
-
 export default function Page() {
-  return <Sidebar />;
+  return <h1>Select an Album</h1>;
 }
