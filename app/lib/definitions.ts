@@ -7,7 +7,8 @@ export type AlbumType = {
     color: string;
     tracks: {
                 title: string;
-                plays: string;
+                artists: string;
                 time: string;
+                popularity: string;
             }[];
 }

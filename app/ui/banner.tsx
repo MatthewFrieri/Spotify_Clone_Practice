@@ -4,7 +4,7 @@ export default function Banner({ album }: { album: AlbumType }) {
   return (
     <>
       <div
-        className="fixed h-[32rem] w-full -z-10"
+        className="absolute h-[32rem] w-full -z-10"
         style={{ background: `linear-gradient(${album.color}, 60%, #09090b)` }}
       ></div>
       <span className="p-6 pt-16 h-80 flex">
@@ -14,7 +14,12 @@ export default function Banner({ album }: { album: AlbumType }) {
         />
         <div className="mt-auto">
           <p>Album</p>
-          <h1 className="text-8xl font-semibold capitalize">{album.name}</h1>
+          {album.name.length < 24 ? (
+            <h1 className="text-8xl font-semibold capitalize">{album.name}</h1>
+          ) : (
+            <h1 className="text-7xl font-semibold capitalize">{album.name}</h1>
+          )}
+
           <p className="capitalize">{album.author}</p>
         </div>
       </span>

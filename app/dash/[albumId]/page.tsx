@@ -12,7 +12,7 @@ export default function Page({ params }: { params: { albumId: string } }) {
   }
 
   return (
-    <div className="flex flex-col flex-grow h-screen">
+    <div className="flex flex-col flex-grow h-screen overflow-auto relative">
       <Banner album={album} />
       <TrackList album={album} />
     </div>
